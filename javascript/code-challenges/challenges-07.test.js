@@ -25,7 +25,7 @@ let starWarsPeople = [
 ];
 
 const sortStarWarsCharacters = (starWarsArr) => {
-  return starWarsArr.sort((a, b) => parseInt(a.height) < (b.height) ? 1 : -1);
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -35,8 +35,7 @@ Write a function named removeThree that takes an index and an array. The functio
 ------------------------------------------------------------------------------------------------ */
 
 const removeThree = (idx, arr) => {
-  arr.splice(idx, 3);
-  return arr;
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -46,7 +45,7 @@ Write a function named joinArray that takes an array and joins all of the elemen
 ------------------------------------------------------------------------------------------------ */
 
 const joinArray = (arr) => {
-  return arr.join(' ');
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -64,12 +63,7 @@ For example, if the input is 'Welcome', the output will be:
 
 const howMuchPencil = (str) => {
   let result = [];
-  let originalString = str;
-  result.push(str);
-  for (let i = 0; i < originalString.length; i++) {
-    str = str.slice(1);
-    result.push(str);
-  }
+  // Solution code here...
   return result;
 };
 
@@ -82,7 +76,7 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-  return arr.split('');
+  // Solution code here...
 };
 
 
@@ -129,11 +123,7 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  for (let ingredient of recipe.ingredients) {
-    let firstIndex = ingredient.indexOf(" ", 4);
-    ingredient = ingredient.slice(firstIndex + 1, ingredient.length);
-    result.push(ingredient);
-  }
+  // Solution code here...
   return result;
 };
 
