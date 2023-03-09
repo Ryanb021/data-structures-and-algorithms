@@ -25,9 +25,11 @@ let starWarsPeople = [
 ];
 
 const sortStarWarsCharacters = (starWarsArr) => {
-  // Solution code here...
-};
 
+  return starWarsArr.sort((a, b) => parseInt(a.height) < parseInt(b.height) ? 1 : -1);
+
+
+};
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
@@ -47,7 +49,6 @@ Write a function named joinArray that takes an array and joins all of the elemen
 const joinArray = (arr) => {
   // Solution code here...
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
@@ -123,7 +124,13 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+
+  for (let ingredient of recipe.ingredients) {
+    let indexOfFirstSpace = ingredient.indexOf(" ", 4);
+    ingredient = ingredient.slice(indexOfFirstSpace + 1, ingredient.length);
+    result.push(ingredient);
+  }
+
   return result;
 };
 
