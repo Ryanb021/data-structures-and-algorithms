@@ -25,10 +25,7 @@ let starWarsPeople = [
 ];
 
 const sortStarWarsCharacters = (starWarsArr) => {
-
   return starWarsArr.sort((a, b) => parseInt(a.height) < parseInt(b.height) ? 1 : -1);
-
-
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -37,7 +34,8 @@ Write a function named removeThree that takes an index and an array. The functio
 ------------------------------------------------------------------------------------------------ */
 
 const removeThree = (idx, arr) => {
-  // Solution code here...
+  arr.splice(idx, 3);
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -47,8 +45,10 @@ Write a function named joinArray that takes an array and joins all of the elemen
 ------------------------------------------------------------------------------------------------ */
 
 const joinArray = (arr) => {
-  // Solution code here...
+  return arr.join(' ');
 };
+
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
@@ -64,10 +64,14 @@ For example, if the input is 'Welcome', the output will be:
 
 const howMuchPencil = (str) => {
   let result = [];
-  // Solution code here...
+  let originalString = str;
+  result.push(str);
+  for (let i = 0; i < originalString.length; i++) {
+    str = str.slice(1);
+    result.push(str);
+  }
   return result;
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
@@ -77,7 +81,7 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-  // Solution code here...
+  return arr.split('');
 };
 
 
@@ -124,13 +128,11 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-
   for (let ingredient of recipe.ingredients) {
     let indexOfFirstSpace = ingredient.indexOf(" ", 4);
     ingredient = ingredient.slice(indexOfFirstSpace + 1, ingredient.length);
     result.push(ingredient);
   }
-
   return result;
 };
 
