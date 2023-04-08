@@ -33,4 +33,4 @@
 
 ## Result
 
-- I did not get the chance to perform this code challenge with a partner as I had to leave early from class due to an appointment. I had to drove back to Bremerton and by the time I gpt back to Seattle, it was around 7:45 pm. I'll ask my instructor on what I can do to complete this assignment. For now I am creating this read me.
+- I did not get the chance to perform this code challenge with a partner as I had to leave early from class due to an appointment. I had to drive back to Bremerton and by the time I got back to Seattle, it was around 7:45 pm. I'll ask my instructor on what I can do to complete this assignment. For now I am creating this read me.
