@@ -1,5 +1,3 @@
-'use strict';
-
 const LinkedList = require('../index');
 
 describe('Linked List', () => {
@@ -22,7 +20,7 @@ describe('Linked List', () => {
 
     expect(list.head.value).toEqual('playstation2');
     expect(list.head.next.value).toEqual('playstation1');
-    expect(list.head.next).toBeNull();
+    expect(list.head.next.next).toBeNull();
   });
 
   it('should display a string properly', () => {
@@ -32,7 +30,7 @@ describe('Linked List', () => {
 
     const linkedString = list.toString();
 
-    expect(linkedString).toEqual('{ playstation2} -> { playstation1} -> NULL');
+    expect(linkedString).toEqual('{ playstation2 } -> { playstation1 } -> NULL');
   });
 
   it('should indicate whether the input value exists in the list', () => {
