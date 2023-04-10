@@ -1,6 +1,5 @@
 'use strict';
 
-// Require our linked list implementation
 const LinkedList = require('../index');
 
 describe('Linked List', () => {
@@ -10,7 +9,7 @@ describe('Linked List', () => {
 
   it('should insert at the beginning of empty', () => {
     const list = new LinkedList();
-    list.IntersectionObserverEntry('playstation1');
+    list.insert('playstation1');
 
     expect(list.head.value).toEqual('playstation1');
     expect(list.head.next).toBeNull();
