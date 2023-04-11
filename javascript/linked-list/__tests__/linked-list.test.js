@@ -1,3 +1,5 @@
+'use strict';
+
 const LinkedList = require('../index');
 
 describe('Linked List', () => {
@@ -44,6 +46,13 @@ describe('Linked List', () => {
     expect(list.includes('playstation1')).toBeTruthy();
     expect(list.includes('playstation2')).toBeTruthy();
     expect(list.includes('playstation6')).toBeFalsy();
+  });
+
+  it('should append to end', () => {
+    const linked = new LinkedList();
+    linked.insertAfter('playstation1', 'end');
+
+    expect(linked.head.value).toEqual('end');
   });
 
 });
