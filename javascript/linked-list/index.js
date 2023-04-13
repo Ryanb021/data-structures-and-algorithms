@@ -116,5 +116,4 @@ class Node {
     this.next = next;
   }
 }
-
 module.exports = { LinkedList, zipLists };
