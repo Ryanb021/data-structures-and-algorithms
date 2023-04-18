@@ -26,4 +26,5 @@
 
 ## UML
 
-- In progress
+- ![Stack Queue Pseudo](https://user-images.githubusercontent.com/120413183/232671591-c660430c-3f29-4e1a-9473-19b20f2b6405.png)
+
