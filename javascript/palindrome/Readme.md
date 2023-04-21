@@ -25,3 +25,6 @@ EXAMPLE:
 - head->{h}->{o}->{u}->{s}->{e}											  FALSE
 
 ## UML
+
+![Palindrome](https://user-images.githubusercontent.com/120413183/233535463-afe1c88e-0088-479a-8302-8a694b29aeb2.png)
+
