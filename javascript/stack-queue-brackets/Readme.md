@@ -32,24 +32,7 @@
     - Square Brackets : []
     - Curly Brackets : {}
 
-## Example
-
-- Input	                      Output
-- {}	                        TRUE
-- {}(){}	                    TRUE
-- ()[[Extra Characters]]	    TRUE
-- (){}[[]]	                  TRUE
-- {}{Code}[Fellows](())	      TRUE
-- [({}]	                      FALSE
-- (](	                        FALSE
-- {(})	                      FALSE
-
-- Consider these small examples and why they fail.
-
-- Input	        Output	        Why
-{	               FALSE	        error unmatched opening { remaining.
-)	               FALSE	        error closing ) arrived without corresponding opening.
-[}	             FALSE	        error closing }. Doesn’t match opening (.
+![Brackets](https://user-images.githubusercontent.com/120413183/233277279-678c1671-d2eb-48a0-8ff0-8f578129de26.png)
 
 ## UML
 
