@@ -52,4 +52,5 @@
 
 ## UML
 
-- In progress.
+<img width="673" alt="Binary Search Trees" src="https://user-images.githubusercontent.com/120413183/233899680-adaad5ac-8090-4df9-82c5-c3efe0f66988.png">
+
