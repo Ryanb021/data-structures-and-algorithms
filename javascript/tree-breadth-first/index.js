@@ -62,4 +62,4 @@ function breadthFirstSearch() {
   return visited;
 }
 
-console.log(tree.breadthFirstSearch()); //[ 20, 14, 57, 9, 19, 31, 62, 3, 11, 72 ]
+console.log(tree.breadthFirstSearch()); //[ 1, 2, 3, 4, 5, 6, 7 ]
