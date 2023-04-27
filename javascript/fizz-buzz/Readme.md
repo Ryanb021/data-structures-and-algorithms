@@ -23,3 +23,6 @@
   - If the value is not divisible by 3 or 5, simply turn the number into a String.
 
 ## UML
+
+![Fizz Buzz](https://user-images.githubusercontent.com/120413183/234786378-2055c99c-9a13-470b-aac0-bd752d0bcf9a.png)
+
