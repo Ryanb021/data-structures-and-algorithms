@@ -29,3 +29,6 @@
   return sorted
 
   ## UML
+  
+  ![Sort-Insertion](https://user-images.githubusercontent.com/120413183/237012181-12fdf544-1498-436f-9e1d-efdc82ba6257.png)
+
