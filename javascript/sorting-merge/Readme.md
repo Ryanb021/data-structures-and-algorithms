@@ -8,7 +8,7 @@
 
 ### Pseudo Code
 
-- ALGORITHM Mergesort(arr)
+ALGORITHM Mergesort(arr)
     DECLARE n <-- arr.length
 
     if n > 1
@@ -22,7 +22,7 @@
       // merge the sorted left and right sides together
       Merge(left, right, arr)
 
-- ALGORITHM Merge(left, right, arr)
+ALGORITHM Merge(left, right, arr)
     DECLARE i <-- 0
     DECLARE j <-- 0
     DECLARE k <-- 0
