@@ -43,3 +43,5 @@ ALGORITHM Merge(left, right, arr)
        set remaining entries in arr to remaining values in left
 
 ## Submission
+
+![Merge Sort](https://github.com/Ryanb021/data-structures-and-algorithms/assets/120413183/1eddd156-4c80-4dbc-aba1-649ff85d1ae6)
