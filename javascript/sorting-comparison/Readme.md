@@ -1,5 +1,52 @@
-# Sorting: Comparisons
+# Code Challenge
 
-- In the first half of this code challenge, you will write functions which sort domain objects. Your functions will receive an array of Movie objects. Each Movie object has a title (string), a year (number), and a list of genres (array of strings). One function will sort the movies by most recent year first. One function will sort the movies, alphabetical by title, but will ignore any leading “A”s, “An”s, or “The”s. Test outputs for these functions, and an array of sample data, have been provided in test and movies.
+Implement several array sorting comparators and an array filter.
 
-- In the second half of the code challenge, you will write tests for your comparator functions. This may necessitate refactoring the code you wrote in part one. Your tests will need to call the comparator functions directly, and make assertions about the response values given test inputs.
+## Specifications
+
+- Read all of these instructions carefully.
+- Name things exactly as described.
+- Do all your work in a your `data-structures-and-algorithms` public repository.
+- Create a new branch in your repo named as noted below.
+- Follow the language-specific instructions for the challenge type listed below.
+- Update the "Table of Contents" - in the README at the root of the repository - with a link to this challenge's README file.
+
+### Challenge Setup & Execution
+
+**Branch Name:** `sort-and-filter-movies`
+
+**Challenge Type:** Code Challenge / Algorithm
+
+## Feature Tasks
+
+### Part 1
+
+- Implement the functions `sortYear` and `sortTitle` in the file `sort.js`.
+
+  - Execute your tests while developing using `npm run watch`
+  - Execute your tests in CI using `npm test`
+
+- Functions:
+  - sortYear
+    - Arguments: `movies` array
+    - Sorts the input array by year, in ascending order.
+  - sortTitle
+    - Arguments: `movies` array
+    - Sorts the input array by title, ignoring `"The "` at the beginning of titles.
+
+### Part 2
+
+- Refactor your `sortYear` and `sortTitle` functions so that the comparator callback is a stand-alone function. Export these functions.
+- Import the stand-alone callback functions in `test.js`, and write tests for each.
+
+## Example
+
+See tests.ts
+
+## Requirements
+
+Ensure your complete solution follows the standard requirements.
+
+1. Write additional [unit tests](../../Challenge_Testing){:target="\_blank"}
+1. Follow the [template for a well-formatted README](../../Challenge_Documentation){:target="\_blank"}
+1. Submit the assignment following [these instructions](../../Challenge_Submission){:target="\_blank"}
