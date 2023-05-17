@@ -10,6 +10,8 @@
 ## Example
 
 ### Input
+![Input](https://github.com/Ryanb021/data-structures-and-algorithms/assets/120413183/96500baa-701d-4997-8148-a26a87641a4b)
+![Input 2](https://github.com/Ryanb021/data-structures-and-algorithms/assets/120413183/b43176e4-f267-420c-9ec9-6a04b66048b8)
 
 ### Output
 
