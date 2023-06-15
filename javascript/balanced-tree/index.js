@@ -29,3 +29,7 @@ function isBalanced(root) {
   // Start the traversal from the root node
   return checkBalanced(root);
 }
+
+// Call the function to check if the tree is balanced
+const isTreeBalanced = isBalanced(root);
+console.log(isTreeBalanced); // Output: true
